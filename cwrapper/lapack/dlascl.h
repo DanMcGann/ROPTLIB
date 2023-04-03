@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int dlascl_(char *type__, integer *kl, integer *ku, doublereal *cfrom, doublereal *cto, integer *m, integer *n, doublereal *a, integer *lda, integer *info);
 

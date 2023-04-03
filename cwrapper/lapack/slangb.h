@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 E_f slangb_(char *norm, integer *n, integer *kl, integer *ku, real *ab, integer *ldab, real *work);
 

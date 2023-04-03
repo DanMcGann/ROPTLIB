@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 E_f sdot_(integer *n, real *sx, integer *incx, real *sy, integer *incy);
 

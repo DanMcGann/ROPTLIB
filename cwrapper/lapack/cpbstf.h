@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int cpbstf_(char *uplo, integer *n, integer *kd, complex *ab, integer *ldab, integer *info);
 

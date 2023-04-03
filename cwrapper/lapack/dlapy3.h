@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 doublereal dlapy3_(doublereal *x, doublereal *y, doublereal *z__);
 

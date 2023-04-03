@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int dswap_(integer *n, doublereal *dx, integer *incx, doublereal *dy, integer *incy);
 

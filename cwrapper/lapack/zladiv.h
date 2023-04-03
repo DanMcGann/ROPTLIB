@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 Z_f zladiv_(doublecomplex * ret_val, doublecomplex *x, doublecomplex *y);
 

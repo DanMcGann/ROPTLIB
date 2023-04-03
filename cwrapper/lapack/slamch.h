@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 E_f slamch_(char *cmach);
 int slamc1_(integer *beta, integer *t, logical *rnd, logical *ieee1);

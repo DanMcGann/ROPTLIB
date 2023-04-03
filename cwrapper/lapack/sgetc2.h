@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int sgetc2_(integer *n, real *a, integer *lda, integer *ipiv, integer *jpiv, integer *info);
 

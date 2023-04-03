@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int zlacgv_(integer *n, doublecomplex *x, integer *incx);
 

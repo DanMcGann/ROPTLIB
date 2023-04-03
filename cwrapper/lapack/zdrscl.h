@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int zdrscl_(integer *n, doublereal *sa, doublecomplex *sx, integer *incx);
 

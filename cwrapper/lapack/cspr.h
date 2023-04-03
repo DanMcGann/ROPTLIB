@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int cspr_(char *uplo, integer *n, complex *alpha, complex *x, integer *incx, complex *ap);
 

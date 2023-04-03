@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int cgttrf_(integer *n, complex *dl, complex *d__, complex *du, complex *du2, integer *ipiv, integer *info);
 

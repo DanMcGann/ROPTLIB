@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int cpoequ_(integer *n, complex *a, integer *lda, real *s, real *scond, real *amax, integer *info);
 

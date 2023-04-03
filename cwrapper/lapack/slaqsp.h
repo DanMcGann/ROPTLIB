@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int slaqsp_(char *uplo, integer *n, real *ap, real *s, real *scond, real *amax, char *equed);
 

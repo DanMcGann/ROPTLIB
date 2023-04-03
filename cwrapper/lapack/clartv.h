@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int clartv_(integer *n, complex *x, integer *incx, complex *y, integer *incy, real *c__, complex *s, integer *incc);
 

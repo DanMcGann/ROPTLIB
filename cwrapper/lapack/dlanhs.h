@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 doublereal dlanhs_(char *norm, integer *n, doublereal *a, integer *lda, doublereal *work);
 

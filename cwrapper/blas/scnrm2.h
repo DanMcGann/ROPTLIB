@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 E_f scnrm2_(integer *n, complex *x, integer *incx);
 

@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int slacon_(integer *n, real *v, real *x, integer *isgn, real *est, integer *kase);
 

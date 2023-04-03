@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 C_f cladiv_(complex * ret_val, complex *x, complex *y);
 

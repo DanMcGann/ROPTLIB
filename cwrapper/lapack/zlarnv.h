@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int zlarnv_(integer *idist, integer *iseed, integer *n, doublecomplex *x);
 

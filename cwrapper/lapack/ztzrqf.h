@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int ztzrqf_(integer *m, integer *n, doublecomplex *a, integer *lda, doublecomplex *tau, integer *info);
 

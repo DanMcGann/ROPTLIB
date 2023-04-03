@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int clarcm_(integer *m, integer *n, real *a, integer *lda, complex *b, integer *ldb, complex *c__, integer *ldc, real *rwork);
 

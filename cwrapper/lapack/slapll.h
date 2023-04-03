@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int slapll_(integer *n, real *x, integer *incx, real *y, integer *incy, real *ssmin);
 

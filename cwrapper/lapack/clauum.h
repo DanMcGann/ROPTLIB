@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int clauum_(char *uplo, integer *n, complex *a, integer *lda, integer *info);
 

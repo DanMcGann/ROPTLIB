@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int dlassq_(integer *n, doublereal *x, integer *incx, doublereal *scale, doublereal *sumsq);
 

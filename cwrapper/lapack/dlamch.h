@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 doublereal dlamch_(char *cmach);
 int dlamc1_(integer *beta, integer *t, logical *rnd, logical *ieee1);

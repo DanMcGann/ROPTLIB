@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int spotrf_(char *uplo, integer *n, real *a, integer *lda, integer *info);
 

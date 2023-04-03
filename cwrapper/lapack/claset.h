@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int claset_(char *uplo, integer *m, integer *n, complex *alpha, complex *beta, complex *a, integer *lda);
 

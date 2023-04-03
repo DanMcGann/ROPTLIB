@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int slassq_(integer *n, real *x, integer *incx, real *scale, real *sumsq);
 

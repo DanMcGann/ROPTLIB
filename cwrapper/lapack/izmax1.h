@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 integer izmax1_(integer *n, doublecomplex *cx, integer *incx);
 

@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int zpptri_(char *uplo, integer *n, doublecomplex *ap, integer *info);
 

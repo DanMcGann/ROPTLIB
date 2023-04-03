@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int dlarrv_(integer *n, doublereal *d__, doublereal *l, integer *isplit, integer *m, doublereal *w, integer *iblock, doublereal *gersch, doublereal *tol, doublereal *z__, integer *ldz, integer *isuppz, doublereal *work, integer *iwork, integer *info);
 

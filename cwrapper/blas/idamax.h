@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 integer idamax_(integer *n, doublereal *dx, integer *incx);
 

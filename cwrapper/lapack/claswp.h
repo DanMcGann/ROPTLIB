@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 int claswp_(integer *n, complex *a, integer *lda, integer *k1, integer *k2, integer *ipiv, integer *incx);
 

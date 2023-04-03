@@ -2,7 +2,7 @@
 extern "C" { 
 #endif  
 
-#include "f2c.h" 
+#include "cwrapper/f2c.h" 
 
 E_f slantp_(char *norm, char *uplo, char *diag, integer *n, real *ap, real *work);
 
